@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio do Projeto Final de Estágio - Cat Café Gato Preto" />
+
+  <title>Portfólio | Cat Café Gato Preto</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header" id="topo">
+    <div class="header-container">
+
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <img src="assets/logo-menu.png" alt="Logo Cat Café Gato Preto" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#proposta">Proposta e objetivo</a>
+        <a href="#diagramas">Diagramas</a>
+        <a href="#telas">Telas do sistema</a>
+        <a href="#artefatos">Artefatos</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img
+        class="hero-background"
+        src="assets/banner-principal.png"
+        alt=""
+      />
+
+      <div class="hero-overlay">
+        <h1>PORTFÓLIO</h1>
+
+        <img
+          class="hero-logo"
+          src="assets/logo-gato-preto.png"
+          alt="Gato Preto Cat Café"
+        />
+      </div>
+      
+    </section>
+
+    <div class="gold-line" aria-hidden="true"></div>
+
+    <section class="section proposal-section" id="proposta">
+
+      <div class="content-container narrow">
+        <img
+          class="logo-central"
+          src="assets/logo-central.png"
+          alt="Logo Cat Café Gato Preto"
+        />
+
+        <span class="section-label">Sobre o projeto</span>
+        <h2>Proposta e Objetivo</h2>
+
+        <p>
+          O projeto de estágio tem como objetivo desenvolver um website para o
+          <strong>Cat Café Gato Preto</strong>, divulgando o estabelecimento,
+          seus serviços e sua proposta, além de proporcionar uma melhor experiência
+          de interação entre o público e o espaço.
+        </p>
+
+        <p>
+          A plataforma apresenta informações sobre a cafeteria, gatos disponíveis
+          para adoção, cardápio e atividades especiais, além de oferecer recursos
+          de contato e outras funcionalidades relacionadas ao atendimento dos
+          clientes.
+        </p>
+
+        <p>
+          O projeto também busca fortalecer a presença digital do estabelecimento,
+          ampliar sua visibilidade e aplicar, na prática, conhecimentos de Engenharia
+          de Software, especialmente em desenvolvimento de interfaces, UI/UX,
+          levantamento de requisitos, prototipação, implementação e testes.
+        </p>
+
+        <div class="about-project-grid">
+          <article class="about-project-card">
+            <span class="about-project-number">01</span>
+            <h3>Problema que o sistema busca resolver</h3>
+            <p>
+              A ausência de uma presença digital estruturada pode limitar a
+              visibilidade do Cat Café e dificultar a comunicação com o público.
+              O sistema busca centralizar as principais informações do
+              estabelecimento e facilitar o acesso dos clientes aos serviços,
+              gatos disponíveis para adoção, cardápio, atividades e formas de
+              contato.
+            </p>
+          </article>
+
+          <article class="about-project-card">
+            <span class="about-project-number">02</span>
+            <h3>Tecnologias utilizadas</h3>
+            <p>
+              Conforme o planejamento do estágio, o desenvolvimento utiliza
+              React Native 0.73, HTML5, CSS3, JavaScript ES2025 e TypeScript 5.9.
+              Para armazenamento dos dados, o projeto utiliza MySQL 8.4.
+            </p>
+          </article>
+
+          <article class="about-project-card">
+            <span class="about-project-number">03</span>
+            <h3>Arquitetura e solução</h3>
+            <p>
+              A solução foi planejada como uma aplicação web responsiva,
+              compatível com dispositivos desktop e mobile. O website organiza
+              em uma única interface as informações institucionais e as
+              funcionalidades de consulta e gerenciamento, utilizando banco de
+              dados MySQL para persistência das informações.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section diagrams-section" id="diagramas">
+      <div class="content-container">
+
+        <div class="section-heading light">
+          <span class="section-label">Documentação técnica</span>
+          <h2>Diagramas</h2>
+          <p>
+            Os diagramas a seguir apresentam diferentes visões do sistema,
+            permitindo compreender sua estrutura, comportamento, fluxo de dados
+            e interação entre os componentes.
+          </p>
+        </div>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">01</span>
+            <div>
+              <h3>Diagrama de Caso de Uso</h3>
+              <p>
+                Representa os principais atores do sistema e as funcionalidades
+                disponíveis para cada um deles, facilitando a visualização dos
+                requisitos funcionais e das permissões de acesso.
+              </p>
+            </div>
+          </div>
+
+          <div class="diagram-image-box">
+            <a href="https://drive.google.com/file/d/1gllGaKlVOdTjUVxIQ4bPwl2ZNkB7oTlH/view?usp=drive_link">
+              <img src="assets/diagrama-caso-de-uso.png" alt="Diagrama de Caso de Uso" />
+            </a>
+          </div>
+
+          <div class="use-cases-content">
+            <div class="use-cases-heading">
+              <span>Casos de uso previstos</span>
+              <h4>Descrição das funcionalidades</h4>
+              <p>
+                Abaixo estão os casos de uso previstos para o sistema, com uma
+                breve descrição de cada funcionalidade.
+              </p>
+            </div>
+
+            <div class="use-case-list">
+              <article class="use-case-item">
+                <h5>Gerenciar Gatos para Adoção</h5>
+                <p>Permite cadastrar, visualizar e editar informações dos gatos disponíveis para adoção, como idade, comportamento e status.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Gerenciar Cardápio</h5>
+                <p>Permite cadastrar, visualizar e editar os itens do cardápio, incluindo suas informações e preço.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Gerenciar Atividades Especiais</h5>
+                <p>Permite cadastrar, visualizar e editar atividades e eventos especiais, com informações como foto, horário e detalhes.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Alterar Conta de Doações</h5>
+                <p>Permite atualizar os dados da conta utilizada para o recebimento de doações.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Visualizar Gatos para Adoção</h5>
+                <p>Permite consultar os gatos disponíveis para adoção e visualizar suas informações.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Preencher Formulário de Adoção</h5>
+                <p>Permite informar e enviar os dados necessários para solicitar a adoção de um gato.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Visualizar Cardápio</h5>
+                <p>Permite consultar os itens disponíveis no cardápio e suas informações.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Visualizar Atividades Especiais</h5>
+                <p>Permite consultar as atividades e eventos especiais disponíveis.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Fazer Doação</h5>
+                <p>Permite visualizar os dados necessários para realizar uma contribuição ao Cat Café.</p>
+              </article>
+
+              <article class="use-case-item">
+                <h5>Gerenciar Perfil</h5>
+                <p>Permite visualizar e editar as informações pessoais do usuário.</p>
+              </article>
+            </div>
+
+            <div class="schedule-box">
+              <div class="schedule-heading">
+                <span>Cronograma</span>
+                <h4>Desenvolvimento dos casos de uso</h4>
+              </div>
+
+              <div class="schedule-table-wrapper">
+                <table class="schedule-table">
+                  <thead>
+                    <tr>
+                      <th>Caso de uso</th>
+                      <th>Status</th>
+                      <th>Data</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Gerenciar Gatos para Adoção</td>
+                      <td><span class="status-badge status-done">Finalizado</span></td>
+                      <td>18/04/2026</td>
+                    </tr>
+                     <tr>
+                      <td>Gerenciar Atividades Especiais</td>
+                      <td><span class="status-badge status-done">Finalizado</span></td>
+                      <td>06/06/2026</td>
+                    </tr>
+                    <tr>
+                      <td>Gerenciar Cardápio</td>
+                      <td><span class="status-badge status-done">Finalizado</span></td>
+                      <td>24/08/2026</td>
+                    </tr>
+                     <tr>
+                      <td>Alterar Conta de Doações</td>
+                      <td><span class="status-badge status-done">Finalizado</span></td>
+                      <td>30/08/2026</td>
+                    </tr>
+                    <tr>
+                      <td>Gerenciar Perfil</td>
+                      <td><span class="status-badge status-progress">Em andamento/span></td>
+                      <td>20/09/2026</td>
+                    </tr>
+                   
+                    <tr>
+                      <td>Visualizar Gatos para Adoção</td>
+                      <td><span class="status-badge status-progress">Em andamento</span></td>
+                      <td>22/09/2026</td>
+                    </tr>
+                    <tr>
+                      <td>Preencher Formulário de Adoção</td>
+                      <td><span class="status-badge status-progress">Em andamento</span></td>
+                      <td>24/09/2026</td>
+                    </tr>
+                    <tr>
+                      <td>Visualizar Cardápio</td>
+                      <td><span class="status-badge status-progress">Em andamento</span></td>
+                      <td>26/09/2026</td>
+                    </tr>
+                    <tr>
+                      <td>Visualizar Atividades Especiais</td>
+                      <td><span class="status-badge status-progress">Em andamento</span></td>
+                      <td>28/09/2026</td>
+                    </tr>
+                    <tr>
+                      <td>Fazer Doação</td>
+                      <td><span class="status-badge status-progress">Em andamento</span></td>
+                      <td>30/09/2026</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">02</span>
+            <div>
+              <h3>Diagrama de Entidade e Relacionamento</h3>
+              <p>
+                Demonstra a estrutura do banco de dados do sistema, apresentando
+                as entidades, seus principais atributos e os relacionamentos
+                existentes entre elas.
+              </p>
+            </div>
+          </div>
+
+          <div class="diagram-image-box">
+             <a href="https://drive.google.com/file/d/1xp--B0OnRq3doQexcFUfTKT1ljhUagwN/view?usp=drive_link">
+            <img src="assets/diagrama-entidade-relacionamento.png" alt="Diagrama de Entidade e Relacionamento" />
+            </a>
+          </div>
+        </article>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">03</span>
+            <div>
+              <h3>Diagrama de Classes</h3>
+              <p>
+                Apresenta a organização lógica da aplicação por meio de classes,
+                atributos, métodos e relacionamentos utilizados na implementação.
+              </p>
+            </div>
+          </div>
+
+          <div class="diagram-image-box">
+            <a href="https://drive.google.com/file/d/13l6qL6jhCUv2FMwrc80M6rSBsKPYnEK9/view?usp=drive_link">
+            <img src="assets/diagrama-classes.png" alt="Diagrama de Classes" />
+            </a>
+          </div>
+        </article>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">04</span>
+
+            <div>
+              <h3>Diagramas de Sequência</h3>
+
+              <p>
+                Demonstram a ordem das interações entre usuário, interface,
+                serviços e demais componentes durante a execução das principais
+                funcionalidades do sistema.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="diagram-grid">
+
+            <figure class="mini-diagram">
+              <figcaption>Gerenciar Atividades Especiais</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1H_RicWc023hCSkCp1eLKln1C07FIZ86M/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Atividades.png"
+                  alt="Diagrama de sequência - Atividades Especiais"
+                />
+              </a>
+            </figure>
+
+
+            <figure class="mini-diagram">
+              <figcaption>Gerenciar Cardápio</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1yL1AJ7AsW4BN7i0-ulkHteP0GVlEWhT8/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Gerenciar Itens do Cardápio.png"
+                  alt="Diagrama de sequência - Cardápio"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Gerenciar Conta de Doações</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1vGp487r0VvUxvF6AWrwnI2-7EtLxqL6U/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Gerenciar Conta de Doação.png"
+                  alt="Diagrama de sequência - Conta de Doações"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Fazer Doação</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1kJ6iTLpZHML2j0xg41B1AZngujMa_Jhl/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Fazer Doação.png"
+                  alt="Diagrama de sequência - Fazer Doação"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Gerenciar Gatos</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1r8cxP8IdJOTGgDr445UbJnF-NZGA6fP9/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Gatos.png"
+                  alt="Diagrama de sequência - Gatos"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Gerenciar Perfil</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1_cObzWU6oRcCPapYDKt_x4IaU5gKfBiv/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Gerenciar Perfil.png"
+                  alt="Diagrama de sequência - Gerenciar Perfil"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Visualizar Atividades Especiais</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1WNDAzO4OBpZBpT5UGRHqQzJnE-Ac902F/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Visualizar Atividades.png"
+                  alt="Diagrama de sequência - Visualizar Atividades Especiais"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Visualizar Cardápio</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1Qu2BhyLU939H1_KadwXJ9V6YtCAn1vru/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Visualizar Cardápio.png"
+                  alt="Diagrama de sequência - Visualizar Cardápio"
+                />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Visualizar Gatos</figcaption>
+
+              <a
+                href="https://drive.google.com/file/d/1nz8dE182hrvKAKrMfZ9h3GqdW-j5oy7B/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/Diagrama de Sequência - Visualizar Gatos.png"
+                  alt="Diagrama de sequência - Visualizar Gatos"
+                />
+              </a>
+            </figure>
+
+          </div>
+
+        </article>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">05</span>
+            <div>
+              <h3>Diagramas de Estado</h3>
+              <p>
+                Representam as possíveis mudanças de estado de determinados
+                elementos do sistema ao longo de seu ciclo de vida.
+              </p>
+            </div>
+          </div>
+
+          <div class="diagram-grid two-columns">
+            <figure class="mini-diagram">
+              <figcaption>Diagrama de Estado - Status Gato</figcaption>
+              <a href="https://drive.google.com/file/d/1tuuaZNLQ20yx7OQYwOOC_rVguYGB52iY/view?usp=drive_link">
+                <img src="assets/diagrama-estado-01.png" alt="Diagrama de Estado 01" />
+              </a>
+            </figure>
+
+            <figure class="mini-diagram">
+              <figcaption>Diagrama de Estado - Deletar Gato</figcaption>
+              <a href="https://drive.google.com/file/d/1Ww6xtVLNZqt5UnMjIgR60J5PiWUDvYzK/view?usp=drive_link">
+                <img src="assets/diagrama-estado-02.png" alt="Diagrama de Estado 02" />
+              </a>
+            </figure>
+          </div>
+        </article>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">06</span>
+            <div>
+              <h3>Diagrama de Implantação</h3>
+              <p>
+                Apresenta a organização física da solução e a distribuição dos
+                componentes da aplicação no ambiente de execução.
+              </p>
+            </div>
+          </div>
+          <div class="diagram-image-box">
+            <a href="https://drive.google.com/file/d/1H7ycUBbmt1Sq92ujXq8USLkvyVIFCOoC/view?usp=drive_link">
+            <img src="assets/diagrama-implantacao.png" alt="Diagrama de Implantação" />
+            </a>
+          </div>
+        </article>
+
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">07</span>
+            <div>
+              <h3>Workflow (AS IS)</h3>
+              <p>
+                O workflow AS IS representa o processo existente antes da
+                implementação da solução, permitindo visualizar como as atividades
+                eram realizadas originalmente e identificar pontos de melhoria.
+              </p>
+            </div>
+          </div>
+
+          <div class="diagram-image-box">
+            <a href="https://drive.google.com/file/d/1PEecPkWuqu9iIu_aHbfmMbH_-tk92oy4/view?usp=drive_link">
+              <img src="assets/workflow-as-is.png" alt="Workflow AS IS" />
+            </a>
+          </div>
+        </article>
+
+        <!--TODO: WORKFLOW TO BE
+        <article class="diagram-card">
+          <div class="diagram-text">
+            <span class="diagram-index">08</span>
+            <div>
+              <h3>Workflow (TO BE)</h3>
+              <p>
+                O workflow TO BE apresenta o processo proposto após a implementação
+                do sistema, evidenciando as mudanças, otimizações e melhorias
+                introduzidas pela nova solução.
+              </p>
+            </div>
+          </div>
+
+          <div class="diagram-image-box">
+            <img src="assets/workflow-to-be.png" alt="Workflow TO BE" />
+          </div>
+        </article> -->
+
+      </div>
+    </section>
+    
+    <section class="section screens-section" id="telas">
+      <div class="content-container">
+
+        <div class="section-heading">
+          <span class="section-label">Interface</span>
+          <h2>Telas do Sistema</h2>
+          <p>
+            Navegue pelo carrossel para visualizar algumas das principais telas
+            desenvolvidas para o sistema.
+          </p>
+        </div>
+
+        <div class="carousel" aria-label="Carrossel de telas do sistema">
+
+          <button class="carousel-button prev" type="button" aria-label="Tela anterior">
+            &#10094;
+          </button>
+
+          <div class="carousel-window">
+            <div class="carousel-track">
+
+              <figure class="screen-slide">
+                <div class="screen-image">
+                  <img src="assets/tela-inicio.png" alt="Tela inicial do sistema" />
+                </div>
+                <figcaption>Tela Inicial</figcaption>
+              </figure>
+
+              <figure class="screen-slide">
+                <div class="screen-image">
+                  <img src="assets/tela-gerenciar-gatos.png" alt="Tela de Gerenciar Gatos" />
+                </div>
+                <figcaption>Gerenciar Gatos</figcaption>
+              </figure>
+
+              <figure class="screen-slide">
+                <div class="screen-image">
+                  <img src="assets/tela-gerenciar-cardapio.png" alt="Tela de Gerenciar Cardápio" />
+                </div>
+                <figcaption>Gerenciar Cardápio</figcaption>
+              </figure>
+
+              <figure class="screen-slide">
+                <div class="screen-image">
+                  <img src="assets/tela-gerenciar-atividades.png" alt="Tela de Gerenciar Atividades" />
+                </div>
+                <figcaption>Gerenciar Atividades</figcaption>
+              </figure>
+
+              <figure class="screen-slide">
+                <div class="screen-image">
+                  <img src="assets/tela-gerenciar-atividades.png" alt="Tela de atividades especiais" />
+                </div>
+                <figcaption>Atividades Especiais</figcaption>
+              </figure>
+
+              <figure class="screen-slide">
+                <div class="screen-image">
+                  <img src="assets/tela-conta.png" alt="Tela da conta de doações" />
+                </div>
+                <figcaption>Conta de Doações</figcaption>
+              </figure>
+
+            </div>
+          </div>
+
+          <button class="carousel-button next" type="button" aria-label="Próxima tela">
+            &#10095;
+          </button>
+
+        </div>
+
+        <div class="carousel-dots" aria-label="Selecionar tela"></div>
+
+        <!-- TODO: <div class="system-link-box">
+          <p>Acesse o sistema pronto aqui:</p>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            Acessar sistema
+          </a>
+        </div> -->
+
+        <div class="video-presentation">
+          <div class="video-heading">
+            <span class="section-label">Demonstração</span>
+            <h3>Vídeo de apresentação do sistema</h3>
+            <p>
+              Demonstração das principais funcionalidades implementadas no sistema.
+            </p>
+          </div>
+
+          <div class="video-frame">
+            <video controls preload="metadata">
+              <source src="assets/video-apresentacao.mp4" type="video/mp4" />
+              Seu navegador não suporta a reprodução de vídeo.
+            </video>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section artifacts-section" id="artefatos">
+      <div class="content-container">
+
+        <div class="section-heading">
+          <span class="section-label">Documentação</span>
+          <h2>Artefatos do Projeto</h2>
+          <p>
+            Documentos produzidos durante as etapas de levantamento,
+            especificação e modelagem do sistema.
+          </p>
+        </div>
+
+        <div class="artifact-list">
+
+          <article class="artifact-card">
+            <div class="artifact-content">
+              <h3>Pedidos do Investidor</h3>
+              <p>
+                Documento que reúne as necessidades, solicitações e expectativas
+                apresentadas pelo investidor para o desenvolvimento do projeto.
+              </p>
+
+              <a class="artifact-file" href="https://docs.google.com/document/d/1XOntA8cqcqQ5XTUE0i92om51qUSdoVks7GMzEki6mtI/edit?usp=drive_link">
+                pedidos do investidor.docx
+              </a>
+            </div>
+
+            <div class="artifact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 2h8l4 4v16H6z"></path>
+                <path d="M14 2v5h5"></path>
+                <path d="M9 12h6M9 16h6"></path>
+              </svg>
+            </div>
+          </article>
+
+          <article class="artifact-card">
+            <div class="artifact-content">
+              <h3>Especificação Complementar</h3>
+              <p>
+                Documento utilizado para detalhar requisitos e informações
+                complementares necessárias para a compreensão do sistema.
+              </p>
+
+              <a class="artifact-file" href="https://docs.google.com/document/d/1sI0Y8IH1WfuXOatFBbJvzhvdz8fHvrnp/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true">
+                especificação complementar.docx
+              </a>
+            </div>
+
+            <div class="artifact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 2h8l4 4v16H6z"></path>
+                <path d="M14 2v5h5"></path>
+                <path d="M9 12h6M9 16h6"></path>
+              </svg>
+            </div>
+          </article>
+
+          <article class="artifact-card">
+            <div class="artifact-content">
+              <h3>Documento de Visão</h3>
+              <p>
+                Apresenta a visão geral do sistema, seus objetivos, público,
+                necessidades principais e características da solução proposta.
+              </p>
+
+              <a class="artifact-file" href="https://docs.google.com/document/d/1ypfuBDaGWRnJN0XhvmlbKuKHU9u9GDZzbaAhbWE7Lho/edit?usp=drive_link">
+                documento de visão.docx
+              </a>
+            </div>
+
+            <div class="artifact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 2h8l4 4v16H6z"></path>
+                <path d="M14 2v5h5"></path>
+                <path d="M9 12h6M9 16h6"></path>
+              </svg>
+            </div>
+          </article>
+
+        <article class="artifact-card">
+
+          <div class="artifact-content">
+            <h3>Especificação de Caso de Uso</h3>
+
+            <p>
+              Detalha os principais casos de uso do sistema, descrevendo
+              atores, fluxos, regras, condições e comportamentos esperados.
+            </p>
+
+            <div class="artifact-links">
+
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1k_VjXRtXc44krooTXZaBU7njRvFGzmf5/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gerenciar Cardápio
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1W7hPLgJEGZWA8WvnCBNzMYBbPk7LKNQE/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gerenciar Conta para Doações
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1j9pi6BWsTc7JbZ7MJp192gP1BCKd1gwQ/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gerenciar Gatos para Adoção
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1o6Q2ZVWNpaqMy6Se54zCVts918VW6-Jk/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gerenciar Perfil
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1QA7z4b4ztnRIDKC-8oBAKkrUdtHyG9kC/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visualizar Cardápio
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1FVBdVWGHk0H2w4IwnUXdibTPVCelDMQx/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visualizar Atividades Especiais
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1Hj1d1YZZ9LBYfKbjKXbz1WEt1Lz1VJFh/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visualizar Gatos
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/19Lwy1F_82Mt7asuzM8FWHZB_Xyx7toBF/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Fazer Doação
+              </a>
+<br>
+              <a
+                class="artifact-file"
+                href="https://docs.google.com/document/d/1JmSQjx4b9QqkEYP-7UssrS0rg_YIy-Y2/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gerenciar Atividades Especiais
+              </a>
+
+            </div>
+          </div>
+
+          <div class="artifact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M6 2h8l4 4v16H6z"></path>
+              <path d="M14 2v5h5"></path>
+              <path d="M9 12h6M9 16h6"></path>
+            </svg>
+          </div>
+
+        </article>
+          <article class="artifact-card">
+            <div class="artifact-content">
+              <h3>Glossário</h3>
+              <p>
+                Reúne termos, conceitos e expressões importantes utilizados
+                durante o desenvolvimento e a documentação do projeto.
+              </p>
+
+              <a class="artifact-file" href="https://docs.google.com/document/d/1wD9QPPT7jnvyEMa8ZnZK0mlSyZp0uyiD/edit?usp=drive_link&ouid=101939359790194867681&rtpof=true&sd=true">
+                glossário.docx
+              </a>
+            </div>
+
+            <div class="artifact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 2h8l4 4v16H6z"></path>
+                <path d="M14 2v5h5"></path>
+                <path d="M9 12h6M9 16h6"></path>
+              </svg>
+            </div>
+          </article>
+
+          <article class="artifact-card">
+            <div class="artifact-content">
+              <h3>Relatório de Estágio</h3>
+              <p>
+                Relatório atualizado das atividades desenvolvidas durante o
+                estágio, contendo o registro da evolução e dos resultados do projeto.
+              </p>
+
+              <a class="artifact-file" href="https://docs.google.com/document/d/1YQ0P6lKuWjoKZW1zV2TZ0Zr1SecxilBQUsUfQ3UmLNc/edit?usp=drive_link">
+                relatório de estágio.pdf
+              </a>
+            </div>
+
+            <div class="artifact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 2h8l4 4v16H6z"></path>
+                <path d="M14 2v5h5"></path>
+                <path d="M9 12h6M9 16h6"></path>
+              </svg>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="student-section" id="identificacao">
+      <div class="content-container">
+        <div class="student-card">
+          <div>
+            <span class="section-label">Acadêmico</span>
+            <h2>Identificação do Aluno</h2>
+          </div>
+
+          <dl class="student-info">
+            <div>
+              <dt>Nome completo</dt>
+              <dd>Fernanda Tozzi Honório</dd>
+            </div>
+
+            <div>
+              <dt>Matrícula</dt>
+              <dd>241072097</dd>
+            </div>
+
+            <div>
+              <dt>Professor orientador</dt>
+              <dd>Marcelo Yukio Yamamoto</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="content-container footer-content">
+      <p><strong>Cat Café Gato Preto</strong> — Projeto Final de Estágio</p>
+      <p>Fernanda Tozzi</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
